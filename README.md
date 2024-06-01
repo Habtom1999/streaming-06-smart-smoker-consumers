@@ -6,6 +6,7 @@ In this project, we'll add the consumers, implementing analytics based on a roll
 The Smart Smoker Temperature Monitoring System is designed to monitor and manage the temperatures within a smoker, specifically targeting three critical areas: the smoker itself, and two food items being cooked (referred to as Food A and Food B). The system utilizes a combination of sensors, data streaming, and messaging queues to provide real-time monitoring and data analysis.
 
 # Prequest 
+
 Before running the project, ensure you have the following prerequisites:
 Git
 RabbitMQ server running
