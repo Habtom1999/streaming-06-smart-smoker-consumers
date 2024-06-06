@@ -43,11 +43,11 @@ Start the producer to collect temperature data:
 
 Open separate terminal windows and start the consumers for smoker temperature and food temperatures:
 
-Smoker Temperature Consumer:python Smoker_listener.py
+Smoker Temperature Consumer:python consumer_smoker.py
 
-Food A Temperature Consumer:python Food-A_listener.py
+Food A Temperature Consumer:python consumer-FoodA.py
 
-Food B Temperature Consumer:python Food-B_listener.py
+Food B Temperature Consumer:python consumer-FoodB.py
 
 # How it Works
 
@@ -57,6 +57,19 @@ This data is then sent to RabbitMQ queues at regular intervals (e.g., every 30 s
 
 RabbitMQ serves as the message broker, receiving data from the producer and making it available for consumers.
 
-Three consumers (Somker_listener.py, Food-A_listener.py and Food-B_listener.py) retrieving data from the RabbitMQ queues for further processing or display.
+Three consumers (consumer-smoker.py, consumer-FoodA.py and consumer-FoodB.py) retrieving data from the RabbitMQ queues for further processing or display.
 
 # Screen shots
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
