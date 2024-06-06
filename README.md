@@ -61,7 +61,7 @@ Three consumers (consumer-smoker.py, consumer-FoodA.py and consumer-FoodB.py) re
 
 # Screen shots
 
-![alt text](image.png)
+(image.png)
 
 ![alt text](image-1.png)
 
